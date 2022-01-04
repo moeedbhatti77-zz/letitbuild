@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LETITBUILD",
+    "slug": "LETITBUILD",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "fitnessevaluation.apk",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyB_Ar5ZoiVGO_SW0INMt777x1uyrKElPag",
+          "certificateHash": "1C33CDFD6FF88646DD7DE097F84DBACF68570990"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
